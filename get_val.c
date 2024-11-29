@@ -6,7 +6,7 @@
 #include "panda/plugin_plugin.h"
 #include "panda/common.h"
 
-// 函数声明
+
 bool init_plugin(void *self);
 void uninit_plugin(void *self);
 int insn_exec(CPUState *env, target_ulong pc);
