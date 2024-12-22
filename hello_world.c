@@ -5,7 +5,7 @@
 #include "panda/plugin.h"
 #include "panda/plugin_plugin.h"
 #include "panda/common.h"
-
+//hello!
 bool init_plugin(void *self);
 void uninit_plugin(void *self);
 void after_vmload(CPUState *env);
